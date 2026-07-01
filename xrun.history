@@ -1,0 +1,2 @@
+#e1(01Jul2026:14:34:01): source ./xcelium.d/env.d/env.history.01Jul2026_14_34_01
+s1(01Jul2026:14:34:01):  xrun -Q -unbuffered -timescale 1ns/1ns -sysv -access +rw design.sv testbench.sv 

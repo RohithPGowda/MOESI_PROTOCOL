@@ -1,0 +1,166 @@
+xrun: 25.03-s001: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun	25.03-s001: Started on Jul 01, 2026 at 14:34:01 EDT
+xrun
+	-Q
+	-unbuffered
+	-timescale 1ns/1ns
+	-sysv
+	-access +rw
+	design.sv
+	testbench.sv
+	Top level design units:
+		$unit_0x67f934e9
+		testbench
+Loading snapshot worklib.testbench:sv .................... Done
+SVSEED default: 1
+xcelium> source /xcelium25.03/tools/xcelium/files/xmsimrc
+xcelium> run
+Generated transaction 0: addr=0x2e85, local_read=0, local_write=0, busRd=1, busRdX=0, wdata=0xc9c5e2ce
+Generated transaction 1: addr=0x6f4a, local_read=1, local_write=0, busRd=1, busRdX=1, wdata=0xd196aa4e
+Generated transaction 2: addr=0x54ff, local_read=0, local_write=1, busRd=0, busRdX=1, wdata=0xc6b0fabf
+Generated transaction 3: addr=0x7f10, local_read=1, local_write=0, busRd=0, busRdX=0, wdata=0x66225771
+Generated transaction 4: addr=0x7005, local_read=1, local_write=1, busRd=0, busRdX=1, wdata=0x94094e30
+Generated transaction 5: addr=0x78d4, local_read=1, local_write=0, busRd=0, busRdX=0, wdata=0x9080306a
+Generated transaction 6: addr=0x1753, local_read=1, local_write=0, busRd=1, busRdX=1, wdata=0xbef74641
+Generated transaction 7: addr=0x2734, local_read=0, local_write=1, busRd=0, busRdX=1, wdata=0x8b843764
+Generated transaction 8: addr=0x5e56, local_read=0, local_write=1, busRd=1, busRdX=0, wdata=0xfa0bf4cc
+Generated transaction 9: addr=0x78b3, local_read=1, local_write=0, busRd=0, busRdX=1, wdata=0x9cf88f12
+Generated transaction 10: addr=0x10b5, local_read=1, local_write=0, busRd=0, busRdX=1, wdata=0x990151fe
+Generated transaction 11: addr=0x74c2, local_read=1, local_write=1, busRd=0, busRdX=0, wdata=0x4cde708d
+Generated transaction 12: addr=0x129e, local_read=0, local_write=1, busRd=0, busRdX=1, wdata=0x97f0a07b
+Generated transaction 13: addr=0x7efd, local_read=0, local_write=0, busRd=1, busRdX=1, wdata=0x4a40fad5
+Generated transaction 14: addr=0x2150, local_read=1, local_write=1, busRd=1, busRdX=0, wdata=0xc47ae71d
+Generated transaction 15: addr=0x4b8a, local_read=0, local_write=1, busRd=1, busRdX=1, wdata=0xc02e54be
+Generated transaction 16: addr=0x6813, local_read=0, local_write=1, busRd=1, busRdX=0, wdata=0xc16c3b06
+Generated transaction 17: addr=0x7697, local_read=0, local_write=0, busRd=1, busRdX=1, wdata=0x7c070371
+Generated transaction 18: addr=0x6002, local_read=1, local_write=1, busRd=0, busRdX=1, wdata=0x5631ada7
+Generated transaction 19: addr=0x397d, local_read=0, local_write=1, busRd=1, busRdX=0, wdata=0xae2e0547
+[0] Reference Model: Received transaction addr=0x2e85, OTHER, data=0xc9c5e2ce
+[0] Reference Model: Sent expected transaction for addr=0x2e85, data=0x0
+[0] Reference Model: Received transaction addr=0x6f4a,  READ, data=0xd196aa4e
+[0] Reference Model: READ addr=0x6f4a, predicted data=0xdeadbeef
+[0] Reference Model: Sent expected transaction for addr=0x6f4a, data=0xdeadbeef
+[0] Reference Model: Received transaction addr=0x54ff, WRITE, data=0xc6b0fabf
+[0] Reference Model: WRITE addr=0x54ff, updated mem=0xc6b0fabf
+[0] Reference Model: Sent expected transaction for addr=0x54ff, data=0xc6b0fabf
+[0] Reference Model: Received transaction addr=0x7f10,  READ, data=0x66225771
+[0] Reference Model: READ addr=0x7f10, predicted data=0xdeadbeef
+[0] Reference Model: Sent expected transaction for addr=0x7f10, data=0xdeadbeef
+[0] Reference Model: Received transaction addr=0x7005, WRITE, data=0x94094e30
+[0] Reference Model: WRITE addr=0x7005, updated mem=0x94094e30
+[0] Reference Model: Sent expected transaction for addr=0x7005, data=0x94094e30
+[0] Reference Model: Received transaction addr=0x78d4,  READ, data=0x9080306a
+[0] Reference Model: READ addr=0x78d4, predicted data=0xdeadbeef
+[0] Reference Model: Sent expected transaction for addr=0x78d4, data=0xdeadbeef
+[0] Reference Model: Received transaction addr=0x1753,  READ, data=0xbef74641
+[0] Reference Model: READ addr=0x1753, predicted data=0xdeadbeef
+[0] Reference Model: Sent expected transaction for addr=0x1753, data=0xdeadbeef
+[0] Reference Model: Received transaction addr=0x2734, WRITE, data=0x8b843764
+[0] Reference Model: WRITE addr=0x2734, updated mem=0x8b843764
+[0] Reference Model: Sent expected transaction for addr=0x2734, data=0x8b843764
+[0] Reference Model: Received transaction addr=0x5e56, WRITE, data=0xfa0bf4cc
+[0] Reference Model: WRITE addr=0x5e56, updated mem=0xfa0bf4cc
+[0] Reference Model: Sent expected transaction for addr=0x5e56, data=0xfa0bf4cc
+[0] Reference Model: Received transaction addr=0x78b3,  READ, data=0x9cf88f12
+[0] Reference Model: READ addr=0x78b3, predicted data=0xdeadbeef
+[0] Reference Model: Sent expected transaction for addr=0x78b3, data=0xdeadbeef
+[0] Reference Model: Received transaction addr=0x10b5,  READ, data=0x990151fe
+[0] Reference Model: READ addr=0x10b5, predicted data=0xdeadbeef
+[0] Reference Model: Sent expected transaction for addr=0x10b5, data=0xdeadbeef
+[0] Reference Model: Received transaction addr=0x74c2, WRITE, data=0x4cde708d
+[0] Reference Model: WRITE addr=0x74c2, updated mem=0x4cde708d
+[0] Reference Model: Sent expected transaction for addr=0x74c2, data=0x4cde708d
+[0] Reference Model: Received transaction addr=0x129e, WRITE, data=0x97f0a07b
+[0] Reference Model: WRITE addr=0x129e, updated mem=0x97f0a07b
+[0] Reference Model: Sent expected transaction for addr=0x129e, data=0x97f0a07b
+[0] Reference Model: Received transaction addr=0x7efd, OTHER, data=0x4a40fad5
+[0] Reference Model: Sent expected transaction for addr=0x7efd, data=0x0
+[0] Reference Model: Received transaction addr=0x2150, WRITE, data=0xc47ae71d
+[0] Reference Model: WRITE addr=0x2150, updated mem=0xc47ae71d
+[0] Reference Model: Sent expected transaction for addr=0x2150, data=0xc47ae71d
+[0] Reference Model: Received transaction addr=0x4b8a, WRITE, data=0xc02e54be
+[0] Reference Model: WRITE addr=0x4b8a, updated mem=0xc02e54be
+[0] Reference Model: Sent expected transaction for addr=0x4b8a, data=0xc02e54be
+[0] Reference Model: Received transaction addr=0x6813, WRITE, data=0xc16c3b06
+[0] Reference Model: WRITE addr=0x6813, updated mem=0xc16c3b06
+[0] Reference Model: Sent expected transaction for addr=0x6813, data=0xc16c3b06
+[0] Reference Model: Received transaction addr=0x7697, OTHER, data=0x7c070371
+[0] Reference Model: Sent expected transaction for addr=0x7697, data=0x0
+[0] Reference Model: Received transaction addr=0x6002, WRITE, data=0x5631ada7
+[0] Reference Model: WRITE addr=0x6002, updated mem=0x5631ada7
+[0] Reference Model: Sent expected transaction for addr=0x6002, data=0x5631ada7
+[0] Reference Model: Received transaction addr=0x397d, WRITE, data=0xae2e0547
+[0] Reference Model: WRITE addr=0x397d, updated mem=0xae2e0547
+[0] Reference Model: Sent expected transaction for addr=0x397d, data=0xae2e0547
+[0] SCOREBOARD: Got expected transaction for addr=0x2e85
+[1000] SCOREBOARD: Got expected transaction for addr=0x6f4a
+[2000] SCOREBOARD: Got expected transaction for addr=0x54ff
+[3000] SCOREBOARD: Got expected transaction for addr=0x7f10
+[4000] SCOREBOARD: Got expected transaction for addr=0x7005
+[5000] SCOREBOARD: Got expected transaction for addr=0x78d4
+--------------------------------------------------
+[5000] Monitor: Reset active
+--------------------------------------------------
+[6000] SCOREBOARD: Got expected transaction for addr=0x1753
+[7000] SCOREBOARD: Got expected transaction for addr=0x2734
+[8000] SCOREBOARD: Got expected transaction for addr=0x5e56
+[9000] SCOREBOARD: Got expected transaction for addr=0x78b3
+[10000] SCOREBOARD: Got expected transaction for addr=0x10b5
+[11000] SCOREBOARD: Got expected transaction for addr=0x74c2
+[12000] SCOREBOARD: Got expected transaction for addr=0x129e
+[13000] SCOREBOARD: Got expected transaction for addr=0x7efd
+[14000] SCOREBOARD: Got expected transaction for addr=0x2150
+[15000] SCOREBOARD: Got expected transaction for addr=0x4b8a
+--------------------------------------------------
+[15000] Monitor: Reset active
+--------------------------------------------------
+[16000] SCOREBOARD: Got expected transaction for addr=0x6813
+[17000] SCOREBOARD: Got expected transaction for addr=0x7697
+[18000] SCOREBOARD: Got expected transaction for addr=0x6002
+[19000] SCOREBOARD: Got expected transaction for addr=0x397d
+--------------------------------------------------
+[25000] Monitor: WRITE request - addr=0x54ff, data=0xc6b0fabf
+--------------------------------------------------
+[26000] SCOREBOARD: Got actual transaction for addr=0x54ff
+[26000] SCOREBOARD PASS: Transaction matched at addr=0x54ff
+--------------------------------------------------
+[35000] Monitor:  READ request - addr=0x7f10, data=0xdeadbeef
+--------------------------------------------------
+[36000] SCOREBOARD: Got actual transaction for addr=0x7f10
+[36000] SCOREBOARD PASS: Transaction matched at addr=0x7f10
+--------------------------------------------------
+[45000] Monitor:  READ request - addr=0x7005, data=0xdeadbeef
+--------------------------------------------------
+[46000] SCOREBOARD: Got actual transaction for addr=0x7005
+[46000] SCOREBOARD ERROR: Mismatch detected at addr=0x7005
+  Expected: addr=0x7005, wdata=0x94094e30
+  Actual:   addr=0x7005, wdata=0xdeadbeef
+--------------------------------------------------
+[55000] Monitor:  READ request - addr=0x78d4, data=0xdeadbeef
+--------------------------------------------------
+[56000] SCOREBOARD: Got actual transaction for addr=0x78d4
+[56000] SCOREBOARD PASS: Transaction matched at addr=0x78d4
+--------------------------------------------------
+[65000] Monitor:  READ request - addr=0x1753, data=0xdeadbeef
+--------------------------------------------------
+[66000] SCOREBOARD: Got actual transaction for addr=0x1753
+[66000] SCOREBOARD PASS: Transaction matched at addr=0x1753
+--------------------------------------------------
+[75000] Monitor: WRITE request - addr=0x2734, data=0x8b843764
+--------------------------------------------------
+[76000] SCOREBOARD: Got actual transaction for addr=0x2734
+[76000] SCOREBOARD PASS: Transaction matched at addr=0x2734
+--------------------------------------------------
+[85000] Monitor: WRITE request - addr=0x5e56, data=0xfa0bf4cc
+--------------------------------------------------
+[86000] SCOREBOARD: Got actual transaction for addr=0x5e56
+[86000] SCOREBOARD PASS: Transaction matched at addr=0x5e56
+--------------------------------------------------
+[95000] Monitor:  READ request - addr=0x78b3, data=0xdeadbeef
+--------------------------------------------------
+[96000] SCOREBOARD: Got actual transaction for addr=0x78b3
+[96000] SCOREBOARD PASS: Transaction matched at addr=0x78b3
+Simulation complete via $finish(1) at time 100 NS + 2
+./test.sv:11     $finish;
+xcelium> exit
+TOOL:	xrun	25.03-s001: Exiting on Jul 01, 2026 at 14:34:02 EDT  (total: 00:00:01)
